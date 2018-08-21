@@ -1,0 +1,527 @@
+.clearfix::after{
+    content:"";
+    display: block;
+    clear: both;
+}
+
+/*Navbar, Header, Over All Style of Page  */
+
+body{
+    background-image: url("http://www.fabulousblogging.com/wp-content/uploads/2012/10/fabric_plaid2.jpg");
+}
+
+.innerheader{
+    width: 960px;
+    background-color: #ffffff;
+    height: 44px;
+    margin: auto; 
+    border: none; 
+}
+
+header{
+    background-color: #ffffff;
+    width: 100%;
+    height: 44px;
+    border: 1px solid #dddddd;
+}
+
+#Name{
+    Float:left;
+    font-family: 'Georgia', Times, 'Times New Roman', serif;
+    text-align: center;
+    font-size: 24px;
+    background-color: #4aaaa5;
+    color: #ffffff;
+    margin: auto;
+    width: 25%;
+    padding: 10px;
+}
+
+nav{
+    float:right;
+    margin: auto;
+    padding: 10px; 
+}
+
+button{
+    border-style: none;
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+    font-size:15px;
+    color: #cccccc;
+}
+
+hr{
+    color: #cccccc;
+    background-color:#cccccc;
+    border: none;
+    height: 2px;
+    width: 870px;
+}
+
+h1{
+    color:#4aaaa5;
+    font-family: 'Georgia', Times, 'Times New Roman', serif;
+    font-size: 24px;
+    padding-left: 20px;
+    margin-bottom: 30px;
+}
+
+span{
+    color:#cccccc;
+
+
+}
+
+/* ABOUT */
+/* Section strucutre and style for About */
+
+section{
+    background-color:#ffffff;
+    color:#777777;
+    width: 898px;
+    margin: auto;
+    padding: 30px;
+    border: 1px solid #dddddd;
+}
+
+.mainInfo {
+    height: 438px;
+    background-color:#ffffff;
+    color:#777777;
+    width: 898px;
+    margin: auto;
+    padding: 30px;
+    border: 1px solid #dddddd;
+}
+
+
+p {
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+    padding: 10px;
+    line-height: 25px;
+}
+
+#profile {
+    float: left;
+    padding: 15px;
+    margin: 0;
+    width: 150px;
+    height: 150px;
+}
+
+/* CONTACT */
+/* Sumbission Form Structure and Sizing */
+
+input[type=text] {
+    width: 100%;
+    padding: 5px;
+    margin-top: 4px;
+    box-sizing: border-box;
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+}
+
+input[type=msg] {
+    width: 100%;
+    padding: 80px;
+    margin-top: 4px;
+    box-sizing: border-box;
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+}
+
+form {
+    margin: auto;
+    width: 870px;
+    padding: 15px;
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+}
+
+input[type=button] {
+    border-style: none;
+    color: #ffffff;
+    background-color:#4aaaa5;
+    height: 7%;
+    width: 12%;
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+    font-size: 14px;
+}
+
+
+/* PORTFOLIO */
+/* Image Box 1 */
+
+#pMain {
+    height: 700px
+}
+
+#box1{
+    position: absolute;
+    float: left;
+}
+
+.img1 {
+    position: relative;
+    width:  250px;
+    height: 250px;
+    margin-left: 15px;
+    border: 1px solid #dddddd;
+    float:left;
+}
+
+#p1{
+    position: absolute;
+    background-color: #4aaaa5;
+    color: #ffffff;
+    width: 232px;
+    height: 30px;
+    margin-left:15px;
+    bottom: 5px;
+    padding: 10;
+    text-align: center;
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+}
+
+/* Image Box 2 */
+
+#box2{
+    position: relative;
+    left: 325px;
+    float: left;
+} 
+
+.img2 {
+    position: relative;
+    width:  250px;
+    height: 250px;
+    border: 1px solid #dddddd;
+ 
+}
+
+#p2{
+    position: relative;
+    background-color: #4aaaa5;
+    color: #ffffff;
+    width: 232px;
+    height: 30px;
+    bottom: 55px;
+    padding: 10;
+    text-align: center;
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+} 
+
+/* Image Box 3 */
+
+#box3 {
+    position: relative;
+    float:left;
+    left:380px;
+} 
+
+.img3 {
+    position: relative;
+    width:  250px;
+    height: 250px;
+    border: 1px solid #dddddd;
+ 
+}
+
+#p3 {
+    position: relative;
+    background-color: #4aaaa5;
+    color: #ffffff;
+    width: 232px;
+    height: 30px;
+    bottom: 55px;
+    padding: 10;
+    text-align: center;
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+} 
+
+/* Image Box 4 */
+
+#box4 {
+    position: absolute;
+    top: 475px;
+    float: left;
+} 
+
+.img4 {
+    position: relative;
+    width:  250px;
+    height: 250px;
+    margin-left: 15px;
+    border: 1px solid #dddddd;
+    float:left;
+}
+
+#p4 {
+    position: absolute;
+    background-color: #4aaaa5;
+    color: #ffffff;
+    width: 232px;
+    height: 30px;
+    margin-left:15px;
+    bottom: 5px;
+    padding: 10;
+    text-align: center;
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+} 
+
+/* Image Box 5 */
+
+#box5 {
+    position: relative;
+    top: 285px;
+    float: left;
+    left: -177px;
+}
+
+.img5 {
+    position: relative;
+    width:  250px;
+    height: 250px;
+    border: 1px solid #dddddd;
+}
+
+#p5 {
+    position: relative;
+    background-color: #4aaaa5;
+    color: #ffffff;
+    width: 232px;
+    height: 30px;
+    bottom: 55px;
+    padding: 10;
+    text-align: center;
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+} 
+
+
+/* Footer Structure and Sizing */
+
+footer{
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+    background: #666666;
+    color: #ffffff;
+    padding: 15px 0;
+    text-align: center;
+    border-top: 5px solid #4aaaa5;
+    position: fixed;
+    bottom: 0;
+    height: 10px;
+    width: 100%;
+ }
+
+
+ /* Media Queries */
+
+ /*  640px and below  */
+
+ /* About Page 640px */
+
+@media screen and (max-width: 640px) {
+    header {
+        width: 100%;
+        margin: auto;
+    }
+
+    h1 {
+        width:100%;
+    }
+
+    .innerheader {
+        width: 100%;
+        text-align: center;
+    }
+
+    #Name {
+        width: 100%;
+        text-align: center;
+    }
+
+    nav {
+        width:100%; 
+        background-color: white;
+        margin-bottom: 25px;
+        border: 1px solid #dddddd;
+    }
+
+    section {
+        width: 100%;
+        padding: 30px;
+        margin: 20px;
+        
+    }
+
+    .mainInfo {
+        width: 100%;
+        padding: 15px;
+        margin: 10px;
+    }
+
+    #profile {
+        width: 300px;
+        Height: 300px;
+        Margin: auto;
+        float: none;
+    }
+
+    p {
+        width: 100%;
+        padding: 5px;
+        line-height: 2;
+        float: none;
+    }
+/* 
+    hr {
+        width:100%;
+    } */
+
+    footer { 
+        font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+        background: #666666;
+        color: #ffffff;
+        padding: 15px 0;
+        text-align: center;
+        border-top: 2px solid #4aaaa5;
+        position: fixed;
+        bottom: 0;
+        height: 10px;
+        width: 100%;
+        font-size: 10px;
+     }
+    }
+
+/* Contact 640px */
+
+@media screen and (max-width: 640px) {
+
+    form {
+        width: 100%;
+        padding-left: 10px;
+        padding-right: 10px;
+        margin-left:10px;
+    }
+
+    input[type=text] {
+        width: 95%;
+    }
+
+    input[type=msg]{
+        width: 95%;
+    }
+
+    input[type=button]{
+        width: 95%;
+    }
+
+}
+
+/* Portfolio 640px */
+
+@media screen and (max-width:640px) {
+   
+    hr {
+        width: 100%;
+    }
+   
+    #pMain {
+        width: 100%;
+        height: 100%;
+    }
+
+    #box1 .img1 #p1{
+        float: none;
+        /* position: static; */
+       
+    }
+
+    #box2 .img2 #p2{
+        float: none;
+        /* position: static; */
+        left: none;
+    }
+
+    #box3 .img3 #p3{
+        float: none;
+        /* position: static; */
+        left: none;
+    }
+
+    #box4 .img4 #p4{
+        float: none;
+        /* position: static; */
+        top: none;
+    }
+
+    #box5 .img5 #p5{
+        float: none;
+        /* position: static; */
+        left: none;
+        top: none;
+    }
+}
+
+/* About at 768px */
+
+@media screen and (max-width: 768px) {
+
+    .innerheader {
+        width: 786px;
+        height: 68px;
+        border: 1px solid #dddddd;
+    }
+
+    header {
+        border: none;
+        margin-bottom: 20px;
+    }
+
+    nav {
+        padding-top: 20px;
+
+    }
+
+    section {
+        width: 680px;
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+
+    hr {
+        width: 650px;
+        margin: 0px 20px 0px 20px;
+    }
+
+    #profile{
+        height: 250px;
+        width: 250px;
+    }
+}
+
+/* Contact 786px */
+@media screen and (max-width: 768px){
+    
+    form {
+        width: 640px;
+        margin: 5px;
+    }
+
+    input[type=text] {
+        width: 640px;
+    }
+
+    input[type=msg]{
+        width: 640px;
+    }
+
+    input[type=button]{
+        width: 640px;
+        /* margin: none; */
+    }
+
+    .mainInfo {
+            width: 680px;
+            margin-left: 20px;
+            margin-right: 20px;
+    }
+
+}
