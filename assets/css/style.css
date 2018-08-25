@@ -34,7 +34,7 @@ header{
     color: #ffffff;
     margin: auto;
     width: 25%;
-    padding: 10px;
+    padding: 10px 0 10px 0;
 }
 
 nav{
@@ -147,154 +147,153 @@ input[type=button] {
 
 
 /* PORTFOLIO */
-/* Image Box 1 */
+/* /////   CSS   ////// */
+
 
 #pMain {
-    height: 700px
+height: 700px
 }
 
-#box1{
-    position: absolute;
-    float: left;
+#box1 {
+position: absolute;
+float: left;
 }
 
 .img1 {
-    position: relative;
-    width:  250px;
-    height: 250px;
-    margin-left: 15px;
-    border: 1px solid #dddddd;
-    float:left;
+position: relative;
+width:  250px;
+height: 250px;
+margin-left: 15px;
+border: 1px solid #dddddd;
+float:left;
 }
 
-#p1{
-    position: absolute;
-    background-color: #4aaaa5;
-    color: #ffffff;
-    width: 232px;
-    height: 30px;
-    margin-left:15px;
-    bottom: 5px;
-    padding: 10;
-    text-align: center;
-    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+#p1 {
+position: absolute;
+background-color: #4aaaa5;
+color: #ffffff;
+width: 232px;
+height: 30px;
+margin-left:15px;
+bottom: 5px;
+padding: 10;
+text-align: center;
+font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
 }
 
 /* Image Box 2 */
 
 #box2{
-    position: relative;
-    left: 325px;
-    float: left;
+position: relative;
+left: 325px;
+float: left;
 } 
 
 .img2 {
-    position: relative;
-    width:  250px;
-    height: 250px;
-    border: 1px solid #dddddd;
- 
+position: relative;
+width:  250px;
+height: 250px;
+border: 1px solid #dddddd;
+
 }
 
 #p2{
-    position: relative;
-    background-color: #4aaaa5;
-    color: #ffffff;
-    width: 232px;
-    height: 30px;
-    bottom: 55px;
-    padding: 10;
-    text-align: center;
-    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+position: relative;
+background-color: #4aaaa5;
+color: #ffffff;
+width: 232px;
+height: 30px;
+bottom: 55px;
+padding: 10;
+text-align: center;
+font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
 } 
 
 /* Image Box 3 */
 
 #box3 {
-    position: relative;
-    float:left;
-    left:380px;
+position: relative;
+float:left;
+left:380px;
 } 
 
 .img3 {
-    position: relative;
-    width:  250px;
-    height: 250px;
-    border: 1px solid #dddddd;
- 
+position: relative;
+width:  250px;
+height: 250px;
+border: 1px solid #dddddd;
+
 }
 
 #p3 {
-    position: relative;
-    background-color: #4aaaa5;
-    color: #ffffff;
-    width: 232px;
-    height: 30px;
-    bottom: 55px;
-    padding: 10;
-    text-align: center;
-    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+position: relative;
+background-color: #4aaaa5;
+color: #ffffff;
+width: 232px;
+height: 30px;
+bottom: 55px;
+padding: 10;
+text-align: center;
+font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
 } 
 
 /* Image Box 4 */
 
 #box4 {
-    position: absolute;
-    top: 475px;
-    float: left;
+position: absolute;
+top: 475px;
+float: left;
 } 
 
 .img4 {
-    position: relative;
-    width:  250px;
-    height: 250px;
-    margin-left: 15px;
-    border: 1px solid #dddddd;
-    float:left;
+position: relative;
+width:  250px;
+height: 250px;
+margin-left: 15px;
+border: 1px solid #dddddd;
+float:left;
 }
 
 #p4 {
-    position: absolute;
-    background-color: #4aaaa5;
-    color: #ffffff;
-    width: 232px;
-    height: 30px;
-    margin-left:15px;
-    bottom: 5px;
-    padding: 10;
-    text-align: center;
-    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+position: absolute;
+background-color: #4aaaa5;
+color: #ffffff;
+width: 232px;
+height: 30px;
+margin-left:15px;
+bottom: 5px;
+padding: 10;
+text-align: center;
+font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
 } 
 
 /* Image Box 5 */
 
 #box5 {
-    position: relative;
-    top: 285px;
-    float: left;
-    left: -177px;
+position: relative;
+top: 285px;
+float: left;
+left: -177px;
 }
 
 .img5 {
-    position: relative;
-    width:  250px;
-    height: 250px;
-    border: 1px solid #dddddd;
+position: relative;
+width:  250px;
+height: 250px;
+border: 1px solid #dddddd;
 }
 
 #p5 {
-    position: relative;
-    background-color: #4aaaa5;
-    color: #ffffff;
-    width: 232px;
-    height: 30px;
-    bottom: 55px;
-    padding: 10;
-    text-align: center;
-    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+position: relative;
+background-color: #4aaaa5;
+color: #ffffff;
+width: 232px;
+height: 30px;
+bottom: 55px;
+padding: 10;
+text-align: center;
+font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
 } 
-
-
 /* Footer Structure and Sizing */
 
 footer{
@@ -321,7 +320,6 @@ footer{
     header {
         width: 100%;
         margin: auto;
-      
     }
 
     h1 {
@@ -331,7 +329,6 @@ footer{
     .innerheader {
         width: 100%;
         text-align: center;
-        
     }
 
     #Name {
